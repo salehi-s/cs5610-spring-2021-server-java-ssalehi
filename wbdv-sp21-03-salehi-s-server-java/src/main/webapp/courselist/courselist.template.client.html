@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course List</title>
     <link href="./courselist.style.client.css" rel="stylesheet"/>
 </head>
+
 <body>
+<div class="container">
+    <div>
+        <!-- Breadcrumbs (Top of Page) Start -->
+        <nav aria-label="breadcrumb" class="main-breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Course List</li>
+            </ol>
+        </nav>
+        <!-- Breadcrumbs (Top of Page) End -->
+    </div>
 
-<div>
-    <!-- Breadcrumbs (Top of Page) Start -->
-    <nav aria-label="breadcrumb" class="main-breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Course List</li>
-        </ol>
-    </nav>
-    <!-- Breadcrumbs (Top of Page) End -->
+    <div>
+        <h1>Course List</h1>
+    </div>
+
+    <table class="table-styled">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Owned By</th>
+                <th>Last Modified By Me</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS5610 Web Development</td>
+                <td>Me</td>
+                <td>4:30 P.M.</td>
+            </tr>
+            <tr>
+                <td>CS5200 Database Management Systems</td>
+                <td>Me</td>
+                <td>3:15 P.M.</td>
+            </tr>
+            <tr>
+                <td>CS5600 Computer Systems</td>
+                <td>Me</td>
+                <td>9:15 P.M.</td>
+            </tr>
+            <tr class="active-row">
+                <td>CS5500 Foundations of Software Engineering</td>
+                <td>Me</td>
+                <td>10:45 A.M.</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-
-<div>
-    <h1>Course List</h1>
-</div>
-
-<table class="table-styled">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Owned By</th>
-            <th>Last Modified By Me</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>CS5610 Web Development</td>
-            <td>Me</td>
-            <td>4:30 P.M.</td>
-        </tr>
-        <tr>
-            <td>CS5200 Database Management Systems</td>
-            <td>Me</td>
-            <td>3:15 P.M.</td>
-        </tr>
-        <tr>
-            <td>CS5600 Computer Systems</td>
-            <td>Me</td>
-            <td>9:15 P.M.</td>
-        </tr>
-        <tr class="active-row">
-            <td>CS5500 Foundations of Software Engineering</td>
-            <td>Me</td>
-            <td>10:45 A.M.</td>
-        </tr>
-    </tbody>
-</table>
-
 </body>
 </html>
