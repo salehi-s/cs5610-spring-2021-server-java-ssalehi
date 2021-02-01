@@ -24,3 +24,43 @@ ol.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
+
+.table-styled {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-styled thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table-styled th {
+    padding: 12px 15px;
+}
+
+.table-styled td {
+    padding: 12px 15px;
+}
+
+.table-styled tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-styled tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-styled tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.table-styled tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
