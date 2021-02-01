@@ -13,7 +13,7 @@
 <body>
 <div class="container-fluid">
     <!-- Navigation Bar (Top of Page) Start -->
-    <nav class="navbar navbar-expand navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-dark bg-dark" style="border: 5px transparent; padding: 5px">
         <a class="navbar-brand" href="../index.html">NEUcourses</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,14 +43,19 @@
 
 <div class="container-fluid">
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Company name</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="../index.html">NEUcourses</a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
         <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
+            <li class="nav-item">
+                <a class="nav-link" href="../courselist/courselist.template.client.html">Course List (Home)</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../profile/profile.template.client.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../login/login.template.client.html">Log Out</a>
             </li>
         </ul>
     </header>
