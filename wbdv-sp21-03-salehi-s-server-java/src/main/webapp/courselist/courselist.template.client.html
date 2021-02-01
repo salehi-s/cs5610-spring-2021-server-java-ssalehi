@@ -5,21 +5,40 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course List</title>
     <link href="./courselist.style.client.css" rel="stylesheet"/>
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet"/>
 </head>
 
 <body>
-<div class="container">
-    <div>
-        <!-- Breadcrumbs (Top of Page) Start -->
-        <nav aria-label="breadcrumb" class="main-breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Course List</li>
-            </ol>
-        </nav>
-        <!-- Breadcrumbs (Top of Page) End -->
-    </div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div>
+                <!-- Breadcrumbs (Top of Page) Start -->
+                <nav aria-label="breadcrumb" class="main-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Course List</li>
+                    </ol>
+                </nav>
+                <!-- Breadcrumbs (Top of Page) End -->
+            </div>
+        </div>
 
+        <div class="col">
+            <a href="../register/register.template.client.html">
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </a>
+        </div>
+
+        <div class="col">
+            <a href="../login/login.template.client.html">
+                <button type="button" class="btn btn-primary">Sign In</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
     <div>
         <h1>Course List</h1>
     </div>
