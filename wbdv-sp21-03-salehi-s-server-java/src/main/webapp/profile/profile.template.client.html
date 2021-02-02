@@ -32,30 +32,66 @@
         <h1>Profile</h1>
     </div>
 
-    <div class="container-fluid">
-        Username: <input readonly placeholder="Alice" id="usernameFld"/>
-    </div>
+    <form>
+        <div class="container-fluid">
+            <div class="form-group row">
+                <label for="username" class="col-sm-2 col-form-label">
+                    Username: </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-username"
+                           id="username"
+                           placeholder="Alice"
+                           readonly>
+                </div>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        Phone: <input id="phoneFld"/>
-    </div>
+        <div class="container-fluid">
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 col-form-label">
+                    Phone Number: </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-phone"
+                           id="phone"
+                           placeholder="781-435-2233">
+                </div>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        Email: <input id="emailFld"/>
-    </div>
+        <div class="container-fluid">
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">
+                    Phone Number: </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-email"
+                           id="email"
+                           placeholder="alice@wonderland.com">
+                </div>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        Date of Birth: <input id="dobFld"/>
-    </div>
+        <div class="container-fluid">
+            <div class="form-group row">
+                <label for="birthdate" class="col-sm-2 col-form-label">
+                    Phone Number: </label>
+                <div class="col-sm-10">
+                    <input class="form-control wbdv-field wbdv-birthdate"
+                           id="birthdate"
+                           placeholder="MM/DD/YYYY">
+                </div>
+            </div>
+        </div>
 
-    <div class="container-fluid">
-        Role:
-        <select class="form-select form-select-sm">
-            <option selected value="Faculty">Faculty</option>
-            <option value="Student">Student</option>
-            <option value="Admin">Admin</option>
-        </select>
-    </div>
+        <div class="container-fluid">
+            Role:
+            <select class="form-select form-select-sm">
+                <option selected value="none">Choose Role</option>
+                <option value="Faculty">Faculty</option>
+                <option value="Student">Student</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+    </form>
 
     <div class="container-fluid">
         <a href="./profileupdate.template.client.html"><button class="btn btn-success" id="updateBtn">Update</button></a>
