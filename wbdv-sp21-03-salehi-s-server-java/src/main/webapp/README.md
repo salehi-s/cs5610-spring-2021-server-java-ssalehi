@@ -29,7 +29,9 @@ You may navigate to Log In by pressing "Log In" at the top of the page.
 
 From Log In, you may navigate to Register by pressing "Sign Up" at the bottom of the page.
 You may navigate to Reset Password by pressing "Forgot Password?" at the bottom of the page.
-You may navigate to Profile by pressing the "Sign In" button at the bottom of the page.
+You may navigate to Profile by pressing the "Sign In" button at the bottom of the page.</br>
+
+NOTE: The user has not logged in at this point and thus, does not have access to the Course List (Home), Profile, or Log Out links in the navigation bar at the top of the page.
 
 <h3>Register</h3>
 
@@ -37,7 +39,11 @@ From Register, you may navigate to Log In by pressing the "Return to Login Page"
 You may navigate to Course List (Home) by pressing the "Cancel (Return to Home)" button at the bottom of the page.
 You may navigate to Profile by pressing the "Register" button at the bottom of the page.
 
+NOTE: The user has not logged in at this point and thus, does not have access to the Course List (Home), Profile, or Log Out links in the navigation bar at the top of the page.
+
 <h3>Reset Password</h3>
 
 From Reset Password, you may navigate to Reset Password Confirmation by pressing the "Reset Password" button at the bottom of the page.
 You may navigate to Log In by pressing the "Return to Login Page" at the bottom of the page.
+
+NOTE: The user has not logged in at this point and thus, does not have access to the Course List (Home), Profile, or Log Out links in the navigation bar at the top of the page.
